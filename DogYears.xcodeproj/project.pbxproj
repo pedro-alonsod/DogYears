@@ -13,6 +13,7 @@
 		2E7DDE7C19FFF4EF009A4570 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7DDE7B19FFF4EF009A4570 /* Images.xcassets */; };
 		2E7DDE7F19FFF4EF009A4570 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E7DDE7D19FFF4EF009A4570 /* LaunchScreen.xib */; };
 		2E7DDE8B19FFF4EF009A4570 /* DogYearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7DDE8A19FFF4EF009A4570 /* DogYearsTests.swift */; };
+		2E7DDE9519FFF58E009A4570 /* The-postal-dog-stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E7DDE9419FFF58E009A4570 /* The-postal-dog-stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2E7DDE8419FFF4EF009A4570 /* DogYearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogYearsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7DDE8919FFF4EF009A4570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E7DDE8A19FFF4EF009A4570 /* DogYearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogYearsTests.swift; sourceTree = "<group>"; };
+		2E7DDE9419FFF58E009A4570 /* The-postal-dog-stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The-postal-dog-stamp.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		2E7DDE7219FFF4EF009A4570 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E7DDE9419FFF58E009A4570 /* The-postal-dog-stamp.jpg */,
 				2E7DDE7319FFF4EF009A4570 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E7DDE7A19FFF4EF009A4570 /* Main.storyboard in Resources */,
+				2E7DDE9519FFF58E009A4570 /* The-postal-dog-stamp.jpg in Resources */,
 				2E7DDE7F19FFF4EF009A4570 /* LaunchScreen.xib in Resources */,
 				2E7DDE7C19FFF4EF009A4570 /* Images.xcassets in Resources */,
 			);
@@ -339,6 +343,7 @@
 				INFOPLIST_FILE = DogYears/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +354,7 @@
 				INFOPLIST_FILE = DogYears/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
